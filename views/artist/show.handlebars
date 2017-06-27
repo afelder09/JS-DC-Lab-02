@@ -1,0 +1,19 @@
+<div class="container">
+  <img src="{{artist.imgURL}}">
+  <h2>
+    {{artist.name}}
+  </h2>
+  <p>
+    {{artist.description}}
+  </p>
+  <div id="comments">
+    <h3>Comments:</h3>
+    <ul>
+    {{#each artist.comment}}
+    <li>this.date, this.description, this.author</li>
+    {{/each}}
+    </ul>
+  <div class="containter">
+    <a class="btn btn-default" id="edit-artist-btn" href="/artist/edit/{{artist._id}}">Edit artist</a>
+  </div>
+</div>

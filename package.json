@@ -1,0 +1,29 @@
+{
+  "name": "tnr",
+  "version": "1.0.0",
+  "description": "Tunr is the worlds #1 music web app. Those Spotify haters can't keep up with us!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afelder09/JS-DC-Lab-02"
+  },
+  "keywords": [],
+  "author": "Anson Felder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afelder09/JS-DC-Lab-02/issues"
+  },
+  "homepage": "https://github.com/afelder09/JS-DC-Lab-02#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.10.8"
+  }
+}

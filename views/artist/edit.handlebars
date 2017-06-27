@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Edit existing artist:</h1>
+    <form action="/artist/new" method="post">
+    <div class="form-group">
+      <label for="exampleInputName">Artist name</label>
+      <input name="name" class="form-control" id="exampleInputName" value="{{artist.name}}">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDescription">Description</label>
+      <input name="description" type="" class="form-control" id="exampleInputDescription" value="{{artist.description}}">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputImg">Image URL</label>
+      <input name="imageURL" type="" class="form-control" id="exampleInputDescription" value="{{artist.imageURL}}">
+    </div>
+    <div class="checkbox">
+      <label>
+        <label for="">Date created</label>
+        <input type="date" value="{{artist.dateFormed}}">
+      </label>
+    </div>
+    <button type="submit" name="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>

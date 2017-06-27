@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Check out all of our artists!</h1>
+      <ul>
+      {{#each artists}}
+        <li>
+          <img class="img-rounded" src={{imageURL}}/>
+          <a href="/artist/{{ _id }}">{{name}}</a> <span> {{description}} </span> <span> {{dateFormed}} </span>
+        </li>
+      {{/each}}
+      </ul>
+  <div class="containter">
+    <a class="btn btn-default" id="new-artist-btn" href="/artist/new">Add artist</a>
+  </div>
+</div>

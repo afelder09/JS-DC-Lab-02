@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Add a new artist:</h1>
+    <form action="/artist/new" method="post">
+    <div class="form-group">
+      <label for="exampleInputName">Artist name</label>
+      <input name="name" type="" class="form-control" id="exampleInputName" placeholder="Artist name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDescription">Description</label>
+      <input name="description" type="" class="form-control" id="exampleInputDescription" placeholder="Description">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputImg">Image URL</label>
+      <input name="imageURL" type="" class="form-control" id="exampleInputDescription" placeholder="Image URL">
+    </div>
+    <div class="checkbox">
+      <label>
+        <label for="">Date created</label>
+        <input name="date" type="date" default="6/23/2017">
+      </label>
+    </div>
+    <button type="submit" name="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
